@@ -1,17 +1,19 @@
-// 1
-export const users = [];
-export function greetUser(name) 
-{
-    if (!users.includes(name)) 
-    {
-        console.log(`Welcome, ${name}!`);
-    } 
-    else 
-    {
-        console.log(`Welcome back, ${name}!`);
-    }
-    users.push(name);
-}
+// // 1
+// export const users = [];
+// export function greetUser(name) 
+// {
+//     if (!users.includes(name)) 
+//     {
+//         console.log(`Welcome, ${name}!`);
+//     } 
+//     else 
+//     {
+//         console.log(`Welcome back, ${name}!`);
+//     }
+
+//     users.push(name);
+// }
+
 
 // // 2
 // export function calculateDiscount(price) {
@@ -24,6 +26,7 @@ export function greetUser(name)
 // }
 // return price * 0.95;
 // }
+
 
 // // 3
 // export const tasks = [

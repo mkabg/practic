@@ -1,9 +1,10 @@
-// 1
-import { greetUser } from "./export.js";
+// // 1
+// import {  greetUser, users } from "./export.js";
 
-greetUser(Alice);
-greetUser(Bob);
-greetUser(Alice); // Should say: Welcome back, Alice!;
+// greetUser("Alice");
+// greetUser("Bob");
+// greetUser("Alice"); // Should say: Welcome back, Alice!;
+// console.log(users);
 
 
 // // 2
@@ -12,6 +13,7 @@ greetUser(Alice); // Should say: Welcome back, Alice!;
 // console.log(calculateDiscount(150)); // Expect: 135
 // console.log(calculateDiscount(15)); // Expect: 15
 // console.log(calculateDiscount(50)); // Expect: 47.5
+
 
 // // 3
 // import { getPendingTasks, tasks } from "./export.js";
