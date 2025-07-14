@@ -1,0 +1,8 @@
+1
+SELECT COUNT(*) FROM `customers` WHERE country = "france" ORDER BY `country` ASC;
+
+2
+SELECT firstName, lastName FROM `employees` WHERE reportsTo = 1143;
+
+3
+SELECT COUNT(*) FROM `products` WHERE productLine = "classic cars";
