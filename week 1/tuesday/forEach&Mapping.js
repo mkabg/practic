@@ -103,23 +103,23 @@ console.log(capitalize("abc"));
 // }
 // console.log(shiftLetters("abc"));
 
-// // 7
-// function swapCase(str)
-// {
-//     const cap = [];
-//     const words = str.split(" ");
-//     for (let i = 0; i < words.length; i++)
-//     {
-//         if (i === 0)
-//         {
-//             cap.push(words[i]);
-//         }
-//         else 
-//         {
-//             cap.push(capitalize(words[i]))
-//         }
-//     }
-//     return cap.join(" ");
-// }
+// 7
+function swapCase(str)
+{
+    const cap = [];
+    const words = str.split(" ");
+    for (let i = 0; i < words.length; i++)
+    {
+        if (i === 0)
+        {
+            cap.push(words[i]);
+        }
+        else 
+        {
+            cap.push(capitalize(words[i]))
+        }
+    }
+    return cap.join(" ");
+}
 
-// console.log(swapCase("abc def ghi"));
+console.log(swapCase("abc def ghi"));

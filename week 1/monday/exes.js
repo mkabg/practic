@@ -156,3 +156,41 @@
 // }
 // matrix.forEach(row => console.log(row));
 
+// // 9
+// const str = "fejshjcdghk gwhskdsjh";
+// const counterLetters = {};
+// for (const char of str)
+// {
+//     if ((char >= 'a' && char <= 'z') || (char >= 'A' && char <= 'Z'))
+//     {
+//         if (char in counterLetters)
+//         {
+//             counterLetters[char]++;
+//         }
+//         else
+//         {
+//             counterLetters[char] = 1;
+//         }
+//     }
+// }
+// console.log(counterLetters);
+
+// // 10
+// function FlatteningMatrix(matrix)
+// {
+//     const arr = [];
+//     matrix.forEach(matrix => 
+//     {
+//         matrix.forEach(num =>
+//         {
+//             if (num > 0)
+//             {
+//                 arr.push(num);
+//             }
+//         })    
+//     });
+//     return arr;
+// }
+// console.log(FlatteningMatrix([[1, 2], [-1, 5]]));
+
+// 11
