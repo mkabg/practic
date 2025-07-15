@@ -1,0 +1,17 @@
+{
+  "name": "server-expres",
+  "version": "1.0.0",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": ""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "expres": "^0.0.5",
+    "express": "^5.1.0"
+  }
+}
