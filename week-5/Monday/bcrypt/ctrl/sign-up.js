@@ -24,7 +24,7 @@ export async function signUp(req, res) {
 }
 
 // Retrieve user by username
-async function getUser(username) {
+export async function getUser(username) {
     try {
         const db = await connect();
         const user = await db.collection("user").findOne({ username });
